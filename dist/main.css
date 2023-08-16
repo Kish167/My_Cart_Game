@@ -1,0 +1,119 @@
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/style.css ***!
+  \*****************************************************************/
+@font-face {
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+}
+
+.app{  
+  background-color: #004980 ;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+.box{
+    display: flex;
+    width: 480px;
+    height: 459px;
+    background: #C2F5FF;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.title{
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #004980;
+    display: flex;
+    justify-content: center;
+}
+
+.label{
+    width: 98px;
+    height: 98px;
+    left: 341px;
+    top: 354px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    width: 97px;
+
+
+   font-family: 'StratosSkyeng';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 72px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #0080C1;
+
+}
+ 
+.label_hide{
+   width: 98px;
+   height: 98px;
+   left: 341px;
+   top: 354px;
+   border-radius: 12px;
+   width: 97px;
+   font-family: 'StratosSkyeng';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 72px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
+   color: rgb(7, 223, 7);
+   background: rgb(5, 168, 5)
+}
+
+.choose{
+    width: 98px;
+    height: 98px;
+    display: none;
+}
+
+.button{
+    width: 246px;
+    height: 50px;
+    left: 389px;
+    top: 519px;   
+    background: #7AC100;
+    border-radius: 12px;
+}
+
+.level{
+    display: flex;
+    gap: 32px;
+}
+
+.timer{
+    width: 155px;
+    height: 72px;
+    left: 22px;
+    top: 41px;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+/*# sourceMappingURL=main.css.map*/
