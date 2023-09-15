@@ -49,10 +49,8 @@
     background: #FFFFFF;
     border-radius: 12px;
     width: 97px;
-
-
-   font-family: 'StratosSkyeng';
-   font-style: normal;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
    font-weight: 400;
    font-size: 64px;
    line-height: 72px;
@@ -63,31 +61,32 @@
 
 }
  
-.label_hide{
-   width: 98px;
-   height: 98px;
-   left: 341px;
-   top: 354px;
-   border-radius: 12px;
-   width: 97px;
-   font-family: 'StratosSkyeng';
-   font-style: normal;
-   font-weight: 400;
-   font-size: 64px;
-   line-height: 72px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   
-   color: rgb(7, 223, 7);
-   background: rgb(5, 168, 5)
-}
 
 .choose{
     width: 98px;
     height: 98px;
     display: none;
 }
+
+.choose:checked + label{
+    width: 98px;
+    height: 98px;
+    left: 341px;
+    top: 354px;
+    border-radius: 12px;
+    width: 97px;
+    font-family: 'StratosSkyeng';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(7, 223, 7);
+    background: rgb(5, 168, 5)
+ }
+
 
 .button{
     width: 246px;

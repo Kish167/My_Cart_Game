@@ -86,25 +86,19 @@ function renderLevel() {
   const label = document.createElement ('label');
   label.className = "label";
   label.textContent = '1';
-  label.onclick = function () {
-    label.className = "label_hide"
-  }
+  
 
   
   
   const label2 = document.createElement ('label');
   label2.className = "label";
   label2.textContent = '2';
-  label2.onclick = function () {
-    label2.className = "label_hide"
-  }
+  
 
   const label3 = document.createElement ('label');
   label3.className = "label";
   label3.textContent = '3';
-  label3.onclick = function () {
-    label3.className = "label_hide"
-  }
+  
 
 
   const choose = document.createElement('input');
